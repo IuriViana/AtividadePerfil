@@ -1,0 +1,57 @@
+.Sla a{
+text-align: center;
+text-decoration: none;
+color: black;
+font-size: large;
+}
+
+.Sla p{
+    
+    margin-left:100px;
+    color: black;
+    font-size: large;
+    }
+
+
+    .Sla li{
+      
+        margin-left:100px;
+        color: black;
+        font-size: large;
+        }
+    
+
+
+.Sla a:hover{
+color: brown;
+}
+
+.icone {
+
+    width: 25px;
+    height: 25px;
+    margin-left:30px;
+    background-size: cover;
+    display: inline-block;
+}
+
+
+.face {
+    background-image: url(img/Face.png);
+}
+
+.email{
+    background-image: url(img/índice.jpg);
+
+}
+
+.twitter{
+    background-image: url(img/índice2.jpg);
+
+}
+
+.Esc{
+    background-image: url(img/isso.png);
+
+}
+
