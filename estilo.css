@@ -1,49 +1,59 @@
-.Imgi img{
+.Imgi img{  /* Class Imgi */
 
 
-width: 100%;
-height: 200px;
-border: 3px groove black;
+width: 100%; /*Define a largura da imagem*/
+height: 200px; /*Define a altura da imagem*/
+border: 3px solid black; /*Define uma borda de 3 pixels sólida para a imagem;
+cor preta*/
 
 
 }
-.Image img{
-    border-radius: 50%;
-    border-bottom: blue;
-    width: 210px;
-    height: 210px;
+
+.back2{ /* Class que vai posicionar o Banner para que consiga cobrir todo o monitor*/
+    margin-top: -10px; /* Posiciona o Banner 10 pixels à cima */
+    margin-right: -2px; /* Posiciona o Banner 10 pixels à direita*/
+    margin-left: -8px; /* Posiciona o Banner 10 pixels à esquerda */
+    
+    
+    }
+.Image img{  /* Define a imagem de perfil */
+    border-radius: 50%; /* Deixa a imagem em formato redondo*/
+    border-bottom: blue; /* borda azul */
+    width: 210px; /* Define largura */
+    height: 210px; /* Define altura */
 
  
 }
-.Image img:hover{
+.Image img:hover{ /* Class Image agora com atributo :hover; quando o mouse estiver
+em cima da imagem, ela vai apresentar opacidade*/
     filter: alpha(opacity=100); 
     -moz-opacity:0.8; 
     opacity:0.8;
 
 }
 
-.Back{
-    background-color: rgba(5, 38, 65, 0.918);
-    margin-top: -16px;
-    margin-right: -11px;
-    margin-left: -10px;
+.Back{  /* Define fundo da imagem de perfil */
+    background-color: rgba(5, 38, 65, 0.918); /* Define cor do fundo */
+    margin-top: -16px; /* Posiciona 16 pixels para cima */
+    margin-right: -11px; /* Posiciona 11 pixels para direita */
+    margin-left: -10px; /* Posiciona 11 pixels para esquerda */
     }
 
 
-.text{
-text-align: center;
-font-family: fantasy;
-font-size: 97%;
-background-color: gray;
-margin-right: -2px;
-margin-left: -8px;
+.text{ /*Define o css para texto*/
+text-align: center; /*Texto alinhado no centro*/
+font-family: fantasy; /*Tipo de font*/
+font-size: 97%; /*Tamanho da font*/
+background-color: gray; /*Define cor de fundo no lugar que se encontra o texto*/
+margin-right: -2px; /* Posiciona 2 pixels para a direita*/
+margin-left: -8px; /*Posiciona 8 pixels para a esquerda*/
 }
 
 .manga{
-border: 1px groove black;
+border: 1px groove black; /*Borda na região do texto, um pixel preto*/
 
-margin-right: -2px;
-margin-left: -8px;
+margin-right: -2px; /* Posiciona 2 pixels para a direita*/
+margin-left: -8px; /*Posiciona 8 pixels para a esquerda*/
 
 
 }

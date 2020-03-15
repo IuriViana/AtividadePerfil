@@ -1,46 +1,62 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale= 1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="X-Ua-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-    <link rel="stylesheet" type="text/css" href="estily.css">
-    <link rel="stylesheet" type="text/css" href="Contatos.css">
-    <link rel="stylesheet" type="text/css" href="Sla.css">
-    <link rel=icon type="image/x-icon" href="img/indicee.ico">
-    <title>Fórum</title>
-</head>
-<body>
+<!DOCTYPE html> <!--Instrução para que o browser saiba a versão que o código de 
+    marcação foi escrito-->
+    <html lang="pt-br"><!--Elemento principal, com atributo de linguagem que define
+    a linguagem principal do documento-->
+    <head><!--Onde se localiza os metadados(informações sobre a página e o conteúdo
+    ali publicado para os buscadores)-->
+        <meta charset="UTF-8"><!-- Determina um padrão de caracteres que o site será
+        representado, neste caso, o unicode "UTF-8"-->
+        <meta name="viewport" content="width=device-width, 
+        initial-scale= 1, maximum-scale=1, user-scalable=no"><!--
+        MetaTag que permite o ajuste da janela de exibição em diferentes tipos de 
+        dispositivos,"Width=devide-width" define a largura da tela que varia, já o "
+        Initial-scale=" define o zoom inicial, neste caso Nulo, ou seja, o usuário
+        é impedido de realizar o zoom em um dispositivo móvel-->
+        <meta http-equiv="X-Ua-Compatible" content="ie=edge"><!--MetaTag exclusiva
+        para Internet Explorer, forçando o navegador a renderizar o site com a versão
+        Html mais recente, ou seja, busca a compatibilidade-->
+    
+        <!--Links que carregam arquivos css, estilos-->
+    
+        <link rel="stylesheet" type="text/css" href="estilo.css"> <!--Contém tudo de visível no site-->
+        <link rel="stylesheet" type="text/css" href="estily.css">
+        <link rel="stylesheet" type="text/css" href="Contatos.css">
+        <link rel="stylesheet" type="text/css" href="Sla.css">
+    
+        <link rel=icon type="image/x-icon" href="img/indicee.ico"><!--Carrega um ícone
+        que estará presente junto ao título nos Browsers-->
+        <title>Fórum</title><!--Título do documento presente nos browsers-->
+    </head>
+    <body><!--Contém tudo de visível no site-->
+    
+    
+    <!--Div cria uma divisão, class relaciona à um estilo css-->
+    <!--Neste caso linkado à dois estilos "Imgi" e "back2, Define um estilo para o banner
+    inicial do site"-->
+        <div class="Imgi back2">
+        <img src="img/Banner.png">
+        </div>
+    
+     
+    <pre>
+    
+    
+    </pre>
 
+    <div class="back3"> <!--Para toda a tabela uma divisão de fundo-->
+    <table> <!--Inicio da tabela-->
+    <tr><!--Criação de linha-->
+    <td><!--Criação de coluna-->
 
-
-    <div class="Imgi back2">
-    <img src="img/Banner.png">
-    </div>
-
-
-
-    <div class="back">
-<pre>
-
-
-</pre>
-
-    </div>
-    <div class="back3">
-    <table>
-    <tr><td>
-
-    <div class="Image">
-    <div class="Back Img">
+    <div class="Image"> <!--Divisão com class Image-->
+    <div class="Back"> <!-- Divisão com fundo da imagem de perfil-->
     <a href="img/images.jpg"><center><img src="img/images.jpg"></center></a>
     </div>
     </div></td>
     
-    <td>
+    <td> <!--Nova coluna-->
         
-    <div class="Sla">
+    <div class="Sla"> <!--Divisão com área para contatos-->
 
     <div>
     <br/><i class="icone face"></i>
@@ -61,14 +77,14 @@
 
 
 
-    <tr>
-       
+    <tr> <!--Nova linha na tabela-->
+        <!--Tag <td> já relacionada à duas class de css-->
         <td class="text manga"><strong>IURI PEREIRA VIANA</strong></td>
     
     </tr>
     </table>
 </div>
-<div class="Header">
+<div class="Header">  <!--Começo da divisão de cabeçalho; linkado à duas páginas-->
 <a href="Profile.html">Profile</a>
 <a href="biografia.html">Biografia</a>
 </div>

@@ -1,41 +1,23 @@
-.Sla a{
-text-align: center;
-text-decoration: none;
-color: black;
-font-size: large;
+.Sla a{  /*Define css das tags <a>*/
+text-align: center; /*Texto alinhado ao centro*/
+text-decoration: none; /*Sem decoração de texto, tira sublinhamento dos links*/
+color: black; /*Cor do texto: preta*/
+font-size: large; /*Tamanho de fonte larga*/
+}
+.Sla a:hover{ /*css para tags <a> quando mouse estiver em cima*/
+color: brown; /*Cor vermelha*/
 }
 
-.Sla p{
-    
-    margin-left:100px;
-    color: black;
-    font-size: large;
-    }
+.icone { /*Definindo ícones*/
 
-
-    .Sla li{
-      
-        margin-left:100px;
-        color: black;
-        font-size: large;
-        }
-    
-
-
-.Sla a:hover{
-color: brown;
+    width: 25px; /*Lergura*/
+    height: 25px; /*Altura*/
+    margin-left:30px; /*Posicionando 30 pixels para a direita*/
+    background-size: cover; /*Tamanho do fundo, cover = 100%*/
+    display: inline-table; /*Função semelhante ao float left, carrega os fundos no elemento*/
 }
 
-.icone {
-
-    width: 25px;
-    height: 25px;
-    margin-left:30px;
-    background-size: cover;
-    display: inline-block;
-}
-
-
+/* Definindo as imagens de fundo para os ícones*/
 .face {
     background-image: url(img/Face.png);
 }

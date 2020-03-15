@@ -1,31 +1,31 @@
-.Header{
+.Header{ /*Define fundo da região do cabeçalho; um gray mais escuro*/
 background-color: rgba(156, 151, 151, 0.986);
 
 }
 
-.Header a{
-text-decoration: none;
-color: rgb(32, 29, 29);
-font-size: 25px;
-margin-left: 50px;
+.Header a{ /*Define estilo para tags <a> dentro do div .Header*/
+text-decoration: none; /*texto sem decoração, retira sublinhado do link*/
+color: rgb(32, 29, 29); /*Cor do texto preto*/
+font-size: 25px; /*Tamanho da font 25 pixels*/
+margin-left: 50px; /*Posiciona <a> 50 pixels à direita*/
 }
 
-.Header a:hover{
-color: lavender; 
+.Header a:hover{ /*Estilo da <a> dentro do div Header quando o mouse estar em cima*/
+color: lavender;  /*Cor de texto branco*/
 }
 
-.Header a.active{
-background-color: rgba(109, 95, 95, 0.932);
+.Header a.active{ /*Estilo da <a> dentro do div Header quando ativo*/
+background-color: rgba(109, 95, 95, 0.932);  /*Cor de fundo mais escura*/
 }
 
-.TEXT{
-font-family: Arial, Helvetica, sans-serif;
-font-size: medium;
-margin-left: 5px;
+.TEXT{ 
+font-family: Arial, Helvetica, sans-serif; /*Tipo de font*/
+font-size: medium; /*Tamanho da font*/
+margin-left: 5px; /*Texto posicionado 5 pixels à direita*/
 }
 
 .TEXTT{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif; /*Tipo de font*/
+    font-size: medium; /*Tamanho da font*/
+    margin-left: 60px; /*Texto posicionado 60 pixels à direita*/
     }

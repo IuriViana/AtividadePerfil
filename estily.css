@@ -1,26 +1,13 @@
 
 
 
-body{
-background-color: rgba(128, 128, 128, 0.548);
-
+body{ /* Toda a tag body recebe : */
+background-color: rgba(128, 128, 128, 0.548); /* Cor de fundo */
 }
 
 
-.back2{
-margin-top: -10px;
-margin-right: -2px;
-margin-left: -8px;
-
-
-}
-
-
-
-
-
-.back3{
-background-color: cornsilk;
+.back3{ /* Cor de fundo própria da tabela */
+background-color: cornsilk; 
 
 
 }
